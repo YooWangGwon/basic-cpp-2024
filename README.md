@@ -24,7 +24,21 @@
 		- 숫자 : 정수(int), 실수(float)
 			
 ## 3일차
+- class 안에 들어 가는 함수 = Method
 
+- Default Value
+- Reference 함수
+	- 반환형 Reference Type
+- Name Space
+	- 전역,지역변수
+	- C에서 메모리
+		- 스택 : 지역변수, 매개변수
+		- HEAP : 사용자에게 할당된 영역
+			= Malloc() -> free()반환 = 사용을 할려면 Malloc으로 할당을 받는다
+		- data: 함수, 전역변수, 상수, 문자 리터럴
+		
+		- // A & B = 비트 And 연산자
+		- // A && B = 논리 And 연산자 = 논리 곱
 ## 4일차
 
 ## 5일차
