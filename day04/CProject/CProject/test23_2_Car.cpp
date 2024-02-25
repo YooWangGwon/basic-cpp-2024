@@ -2,8 +2,8 @@
 // date : 240223
 // desc : 멤버 함수 정의
 
-#include <iostream>
-#include <cstring>
+# include <iostream>
+# include <cstring>
 # include "test23_1_Car.h"
 using namespace std;
 

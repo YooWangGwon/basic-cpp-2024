@@ -22,10 +22,10 @@ public: // 접근 제어지시자:어디서든지 접근 가능
 */
 class Human {
 private:
-	char* name[30];
-	int age;
-	char* job[20];
+	char name[30];
+	int age=0;
+	char job[20];
 public:
-	Human(const char Hname, int Hage, const char Hjob);
+	Human(const char* Hname, int Hage, const char* Hjob);
 	void humanInfo();
 };
