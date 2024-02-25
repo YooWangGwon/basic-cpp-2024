@@ -1,6 +1,6 @@
 // file : test25_fileDiv.h
 // date : 240223
-// desc : 클래스 선언
+// desc : 클래스 선언 실습
 
 
 #pragma once //#ifndef __CAR_H__

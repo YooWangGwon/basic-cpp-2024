@@ -1,6 +1,6 @@
 // file : test25_fileDiv.cpp
 // date : 240223
-// desc : 멤버함수 정의
+// desc : 멤버함수 정의 실습
 
 
 # include <iostream>
