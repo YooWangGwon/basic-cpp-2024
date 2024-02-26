@@ -1,4 +1,4 @@
-// file : test16_StdCPPFunc.cpp
+// file : test18_StdCPPFunc.cpp
 // date : 240223
 // desc : C++에서 C언어의 표준 함수 호출하기(p.96~99)
 

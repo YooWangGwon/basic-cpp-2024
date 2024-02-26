@@ -1,11 +1,11 @@
-// file : test25_fileDiv.cpp
+// file : test27_fileDiv.cpp
 // date : 240223
 // desc : 멤버함수 정의 실습
 
 
 # include <iostream>
 # include <cstring>
-# include "test25_fileDiv.h"
+# include "test27_fileDiv.h"
 /*
 AClass::AClass(int anum) { // 생성자 : 하나의 값을 입력받아 필드값에 초기화하는 것을 담당
 	num = anum;
@@ -15,11 +15,11 @@ void AClass::Alnfo() {
 	std::cout << "A::num" << num << std::endl;
 }
 */
-Human::Human(const char* Hname, int Hage, const char* Hjob) 
+Human::Human(const char* Hname, int Hage, const char* Hjob, int Hbirth) : age(Hage), birth(Hbirth)
 {
 	strcpy(name, Hname);
-	age = Hage;
-	strcpy(job, Hjob);;
+	// age = Hage;
+	strcpy(job, Hjob);
 }
 
 void Human::humanInfo() {
@@ -33,7 +33,7 @@ int main()
 	a.Alnfo();
 	*/
 
-	Human h("홍길동", 25, "백수");
+	Human h("홍길동", 25, "백수", 990315);
 	h.humanInfo();
 		return 0;
 }

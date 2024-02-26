@@ -1,4 +1,4 @@
-// file : test19_struct03.cpp
+// file : test21_struct03.cpp
 // date : 240223
 // desc : C++ Å¬·¡½º
 

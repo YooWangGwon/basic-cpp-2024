@@ -1,4 +1,4 @@
-﻿// file : test13_MemMalFree.cpp
+﻿// file : test15_MemMalFree.cpp
 // date : 240223 
 // desc : MemMalFree.cpp (p.91)
 

@@ -1,4 +1,4 @@
-// file : test18_struct02.cpp
+// file : test20_struct02.cpp
 // date : 240223
 // desc : C++타입 구조체
 

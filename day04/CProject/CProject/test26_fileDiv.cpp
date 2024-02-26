@@ -1,3 +1,7 @@
+// file : test26_파일 분할
+// date : 240223
+// desc : 파일분할
+
 # include <iostream>
 
 class AClass {

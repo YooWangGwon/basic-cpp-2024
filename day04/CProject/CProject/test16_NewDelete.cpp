@@ -1,4 +1,4 @@
-// file : test14_NewDelete.cpp
+// file : test16_NewDelete.cpp
 // date : 240223
 // desc : New¿Í Delete
 

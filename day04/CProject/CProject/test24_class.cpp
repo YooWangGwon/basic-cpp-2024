@@ -1,4 +1,4 @@
-// file : test22_class.cpp
+// file : test24_class.cpp
 // date : 240223
 // desc : 클래스  - 접근제어(p.121~126)
 

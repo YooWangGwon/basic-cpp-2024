@@ -1,4 +1,4 @@
-// file : test15_NewObject
+// file : test17_NewObject
 // date : 240223
 // desc : NewObject(p.94~95)
 

@@ -1,4 +1,4 @@
-// file : test21_OuterFunc.cpp
+// file : test23_OuterFunc.cpp
 // date : 240223
 // desc : 함수의 정의를 밖으로 빼는 법(p.118~121)
 

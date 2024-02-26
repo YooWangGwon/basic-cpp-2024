@@ -1,4 +1,4 @@
-// file : test25_fileDiv.h
+// file : test27_fileDiv.h
 // date : 240223
 // desc : 클래스 선언 실습
 
@@ -23,9 +23,10 @@ public: // 접근 제어지시자:어디서든지 접근 가능
 class Human {
 private:
 	char name[30];
-	int age=0;
+	const int age;
 	char job[20];
+	const int birth;
 public:
-	Human(const char* Hname, int Hage, const char* Hjob);
+	Human(const char* Hname, int Hage, const char* Hjob, const int Hbirth);
 	void humanInfo();
 };

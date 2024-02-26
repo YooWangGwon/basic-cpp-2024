@@ -1,4 +1,4 @@
-// file : test20_enum
+// file : test22_enum
 // date : 20240223
 // desc : 구조체 안에 enum 상수 선언(p.115~118)
 

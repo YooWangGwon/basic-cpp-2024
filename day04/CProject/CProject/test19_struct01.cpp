@@ -1,4 +1,4 @@
-// file : test17_struct01
+// file : test19_struct01
 // date : 240223
 // desc : C타입 구조체
 

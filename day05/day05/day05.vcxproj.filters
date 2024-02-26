@@ -15,54 +15,57 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test15_MemMalFree.cpp">
+    <ClCompile Include="test28_object.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test16_NewDelete.cpp">
+    <ClCompile Include="test29.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test17_NewObject.cpp">
+    <ClCompile Include="test30_1_Point.h">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test18_StdCPPFunc.cpp">
+    <ClCompile Include="test30_2_Point.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test19_struct01.cpp">
+    <ClCompile Include="test30_4_Rectangle.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test20_struct02.cpp">
+    <ClCompile Include="test30_5_RectangleFaultFind.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test21_struct03.cpp">
+    <ClCompile Include="test31_Encaps1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test22_erum.cpp">
+    <ClCompile Include="test32_Encap2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test23_outerFunc.cpp">
+    <ClCompile Include="test33_constructor.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test24_class.cpp">
+    <ClCompile Include="test34_Constructor1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test25_1_Car.h">
+    <ClCompile Include="test35_Constructor2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test25_2_Car.cpp">
+    <ClCompile Include="test36_FruitSaleSim2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test25_3_RacingMain.cpp">
+    <ClCompile Include="test37_student.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test26_fileDiv.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="test27_fileDiv.cpp">
+    <ClCompile Include="test_38_2_Point.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="test27_fileDiv.h">
+    <ClInclude Include="test30_3_Rectangle.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="test38_1_Point.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="test38_3_Rectangle.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>

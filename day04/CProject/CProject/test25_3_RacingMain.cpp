@@ -1,8 +1,8 @@
-// file : test23_1_RacingMain.cpp
+// file : test25_1_RacingMain.cpp
 // date : 240223
 // desc : 메인 함수
 
-# include "test23_1_Car.h"
+# include "test25_1_Car.h"
 
 int main(void)
 {

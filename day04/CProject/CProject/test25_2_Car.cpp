@@ -1,10 +1,10 @@
-// file : test23_1_Car.cpp
+// file : test25_1_Car.cpp
 // date : 240223
 // desc : 멤버 함수 정의
 
 # include <iostream>
 # include <cstring>
-# include "test23_1_Car.h"
+# include "test25_1_Car.h"
 using namespace std;
 
 void Car::InitMembers(const char* ID, int fuel)
