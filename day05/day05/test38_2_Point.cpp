@@ -15,7 +15,7 @@ bool Point::SetX(int xpos)
 {
 	if (0 > xpos || xpos > 100)
 	{
-		cout << "¹ş¾î³­ ¹üÀ§ÀÇ °ª Àü´Ş" << endl;
+		cout << "ï¿½ï¿½ï¿½î³­ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½" << endl;
 		return false;
 	}
 	x = xpos;
@@ -23,9 +23,8 @@ bool Point::SetX(int xpos)
 }
 bool Point::SetY(int ypos)
 {
-	if (0 > ypos || ypos > 100)
 	{
-		cout << "¹ş¾î³­ ¹üÀ§ÀÇ °ª Àü´Ş" << endl;
+		cout << "ï¿½ï¿½ï¿½î³­ ï¿½ï¿½ï¿½ï¿½ï¿½ï¿½ ï¿½ï¿½ ï¿½ï¿½ï¿½ï¿½" << endl;
 		return false;
 	}
 	y = ypos;
