@@ -54,7 +54,7 @@
     <ClCompile Include="test76_HASInheritance.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test77.cpp">
+    <ClCompile Include="test77_InheritanceTraining.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
