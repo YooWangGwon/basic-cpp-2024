@@ -31,20 +31,34 @@ class MyInfo : public Myclass
 {
 private:
 	char pNumber[20];
+	char address[30];
+	char newAddress[30];
 public:
-	MyInfo(const char* myname, int myage, const char* mypNum) : Myclass(myname, myage)
+	MyInfo(const char* myname, int myage, const char* mypNum, const char* myaddress) : Myclass(myname, myage)
 	{
 		strcpy(pNumber, mypNum);
+		strcpy(address, myaddress);
+	}
+	string MyAddress()
+	{
+		return address;
 	}
 	void printMyInfo()
 	{
-		cout << "나의 이름은 " << Myname() << "이고 나이는 " << Myage() << "살이며 전화번호는" << pNumber << "입니다." << endl;
+		cout << "나의 이름은 " << Myname() << "이고 나이는 " << Myage() << "살이며 전화번호는 " << pNumber << "이고 거주지는 "<< address << "입니다." << endl;
+	}
+	void Move(const char* newaddress)
+	{
+		strcpy(address, newaddress);
 	}
 };
 
+
 int main(void)
 {
-	MyInfo p1("유왕권", 25, "010-1234-5678");
+	MyInfo p1("유왕권", 25, "010-1234-5678","부산");
+	p1.printMyInfo();
+	p1.Move("서울");
 	p1.printMyInfo();
 	return 0;
 }
