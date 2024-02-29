@@ -15,37 +15,46 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test53_ShallowCopyError.cpp">
+    <ClCompile Include="test64_CopyConTraing.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test54_CopyConCall.cpp">
+    <ClCompile Include="test65_NeedGlobal.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test55_PassObjCopycon.cpp">
+    <ClCompile Include="test66_StaticMember.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test56_ReturnObjCopyCon.cpp">
+    <ClCompile Include="test67_PublicStaticMember.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test57_IKnowTempObj.cpp">
+    <ClCompile Include="test68_ConstStaticMember.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test58_ReturnObjDeadTime.cpp">
+    <ClCompile Include="test69_Mutable.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test59_ConstObject.cpp">
+    <ClCompile Include="test70_EmployeeManager1.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test60_ConstOverloading.cpp">
+    <ClCompile Include="test71_Inheritance.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test61_MyFriendClass.cpp">
+    <ClCompile Include="test72_DerivedClass.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test62_MyFriendFunction.cpp">
+    <ClCompile Include="test73_DerivDestOrder.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test63_CComStatic.cpp">
+    <ClCompile Include="test74_DestModel.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test75_ISAInheritance.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test76_HASInheritance.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="test77.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
