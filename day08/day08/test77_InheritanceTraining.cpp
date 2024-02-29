@@ -1,4 +1,4 @@
-// file : test77_InheritanceTraining
+// file : test77_InheritanceTraining.cpp
 // date : 240229
 // desc : 상속 실습
 
