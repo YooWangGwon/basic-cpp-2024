@@ -31,15 +31,15 @@ int main()
 	Derived d;					// Derived 타입의 객체 변수 
 	Base* pb = new Derived();	// Base 타입의 객체 포인터
 
-	pb->func1();
-	pb->func2();
+	pb->func1();	// 가상함수로 Derived 클래스의 func1() 호출
+	pb->func2();	// Base 클래스의 func2() 호출
 	pb->func3();	// Base 클래스의 func3() 호출
 
-	Derived* pd = &d;
-	pd->func1();
-	pd->func2();
-	pd->func3();
-	pd->func4();
+	Derived* pd = &d; 
+	pd->func1();	// Derived 클래스의 func1() 호출
+	pd->func2();	// Base 클래스의 func2() 호출
+	pd->func3();	// Derived 클래스의 func3() 호출
+	pd->func4();	// Derived 클래스의 func4() 호출
 
 	delete pb;
 
