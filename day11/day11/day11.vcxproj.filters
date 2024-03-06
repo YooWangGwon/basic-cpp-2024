@@ -15,37 +15,40 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test89_FirstOperationOverloading.cpp">
+    <ClCompile Include="test100_AssignShallowCopyError.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test90_GFunctionOverloading.cpp">
+    <ClCompile Include="test101_InheritAssignOperation.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test91_OnePondOverloading.cpp">
+    <ClCompile Include="test102_ImproveInit.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test92_Add.cpp">
+    <ClCompile Include="test103_arrayBase.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test93_PostOpndOverloading.cpp">
+    <ClCompile Include="test104_array01.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test94_PointMultipleOperation.cpp">
+    <ClCompile Include="test105_ArrayClass.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test95_ConsoleOutput.cpp">
+    <ClCompile Include="test106_NewDeleteOverloading.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test96_IterateConsoleOutput.cpp">
+    <ClCompile Include="test107_PointerOperatorOverloading.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test97_training.cpp">
+    <ClCompile Include="test108_SmartPointer01.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test98_FirstOperationOverloading.cpp">
+    <ClCompile Include="test109_SmartPointer02.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test99_training.cpp">
+    <ClCompile Include="test110_Functor.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="Trainging.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
