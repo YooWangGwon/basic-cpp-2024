@@ -15,40 +15,31 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test100_AssignShallowCopyError.cpp">
+    <ClCompile Include="test112_ConvToObject.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test101_InheritAssignOperation.cpp">
+    <ClCompile Include="test113_ConvTpPrimitive.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test102_ImproveInit.cpp">
+    <ClCompile Include="test114_StringClass01.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test103_arrayBase.cpp">
+    <ClCompile Include="test115_StringClass02.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test104_array01.cpp">
+    <ClCompile Include="test116_StringClass03.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test105_ArrayClass.cpp">
+    <ClCompile Include="test117_AddFuncTemplate.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test106_NewDeleteOverloading.cpp">
+    <ClCompile Include="test118_TwoTypeFunc.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test107_PointerOperatorOverloading.cpp">
+    <ClCompile Include="test119_PrimitiveFucTemplate.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test108_SmartPointer01.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="test109_SmartPointer02.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="test110_Functor.cpp">
-      <Filter>소스 파일</Filter>
-    </ClCompile>
-    <ClCompile Include="test111_Trainging.cpp">
+    <ClCompile Include="test120_Specialization.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
