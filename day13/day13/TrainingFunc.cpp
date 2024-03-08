@@ -30,6 +30,12 @@ string Product::getInfo()
 {
 	return "ID";
 }
+
+Product::~Product()
+{
+	cout << "Product ¼Ò¸êÀÚ ½ÇÇà" << endl;
+}
+
 Book::Book(string Bid, int Bprice, string Bproducer, string BISBN, string Bauthor, string Btitle) : Product(Bid, Bprice, Bproducer)
 {
 	ISBN = BISBN;

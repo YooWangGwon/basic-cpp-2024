@@ -15,6 +15,7 @@ public:
 	virtual void ShowProduct();
 	virtual string mytype();
 	virtual string getInfo();
+	~Product();
 };
 
 class Book : public Product

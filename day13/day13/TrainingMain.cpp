@@ -24,13 +24,33 @@ int main(void)
 		cout << "-----상품 관리 프로그램-----" << endl;
 		cout << "1. 상품추가 2. 상품출력 3. 상품검색 4. 종료" << endl;
 		cin >> click1;
-		if (click1 == 1)
+		if (cin.fail())
+		{
+			cin.ignore(INT_MAX, '\n'); // 입력하여 문자로 인식한'\n'도 무시
+			cin.clear();
+		
+		rewind(stdin);
+
+		cout << "1~4중에 입력하세요. > " << endl;
+		}	
+		else if (click1 == 1)
 		{
 			cout << "_____[상품 추가]_____" << endl;
 			cout << "1. 책 2. 핸드폰 3. 컴퓨터 4. 뒤로가기" << endl;
 			int click2 = 0;
+		tryAgain1:
 			cin >> click2;
-			if (click2 == 1)	// 상품추가 - 책
+			if (cin.fail())
+			{
+				cin.ignore(INT_MAX, '\n'); // 입력하여 문자로 인식한'\n'도 무시
+				cin.clear();
+
+				rewind(stdin);
+
+				cout << "1~4중에 입력하세요. > ";
+				goto tryAgain1;
+			}
+			else if (click2 == 1)	// 상품추가 - 책
 			{
 				cout << "ID > ";
 				cin >> id;
@@ -88,7 +108,7 @@ int main(void)
 			}
 			else
 			{
-				cout << "숫자를 다시 입력하세요" << endl;
+				cout << "1~4중에 입력하세요." << endl;
 			}
 		}
 		else if (click1 == 2) // 상품 출력
@@ -96,7 +116,18 @@ int main(void)
 			int click3 = 0;
 			cout << "_____[상품 출력]_____" << endl;
 			cout << "1. 책 2. 핸드폰 3. 컴퓨터 4. 뒤로가기" << endl;
+		tryAgain2:
 			cin >> click3;
+			if (cin.fail())
+			{
+				cin.ignore(INT_MAX, '\n'); // 입력하여 문자로 인식한'\n'도 무시
+				cin.clear();
+
+				rewind(stdin);
+
+				cout << "1~4중에 입력하세요. > ";
+				goto tryAgain2;
+			}
 
 			if (click3 == 1)	// 상품 출력 -> 책
 			{
@@ -135,18 +166,29 @@ int main(void)
 			}
 			else
 			{
-				cout << "숫자를 다시 입력하세요" << endl;
+				cout << "1~4중에 입력하세요." << endl;
 				continue;
 			}
 		}
-		else if (click1 == 3)
+		else if (click1 == 3)	// 상품 검색
 		{
 			int click4 = 0;
 			string titlename;
 			cout << "_____[상품 검색]_____" << endl;
 			cout << "1. 책 2. 핸드폰 3. 컴퓨터 4. 뒤로가기" << endl;
+		tryAgain3:
 			cin >> click4;
-			if (click4 == 1)
+			if (cin.fail())
+			{
+				cin.ignore(INT_MAX, '\n'); // 입력하여 문자로 인식한'\n'도 무시
+				cin.clear();
+
+				rewind(stdin);
+
+				cout << "1~4중에 입력하세요. > ";
+				goto tryAgain3;
+			}
+			if (click4 == 1)	// 상품 검색 -> 책
 			{
 				for (int n = 0; n < i; n++)
 				{
@@ -165,7 +207,7 @@ int main(void)
 					}
 				}
 			}
-			else if (click4 == 2)
+			else if (click4 == 2)	// 상품 검색 -> 핸드폰
 			{
 				for (int n = 0; n < i; n++)
 				{
@@ -184,7 +226,7 @@ int main(void)
 					}
 				}
 			}
-			else if (click4 == 3)
+			else if (click4 == 3)	// 상품 검색 -> 컴퓨터
 			{
 				for (int n = 0; n < i; n++)
 				{
@@ -203,13 +245,13 @@ int main(void)
 					}
 				}
 			}
-			else if (click4 == 4)
+			else if (click4 == 4)	// 상품 검색 -> 뒤로가기
 			{
 				continue;
 			}
 			else
 			{
-				cout << "숫자를 다시 입력하세요" << endl;
+				cout << "1~4중에 입력하세요." << endl;
 				continue;
 			}
 		}
@@ -219,10 +261,11 @@ int main(void)
 		}
 		else
 		{
-			cout << "잘못된 입력 번호입니다." << endl;
+			cout << "1~4중에 입력하세요." << endl;
 			continue;
 		}
 	}
 
+	delete []product;	// 메모리 반환
 	return 0;
 }
