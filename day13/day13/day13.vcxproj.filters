@@ -15,29 +15,49 @@
     </Filter>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="test112_ConvToObject.cpp">
+    <ClCompile Include="test120_Specialization01.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test113_ConvTpPrimitive.cpp">
+    <ClCompile Include="test121_Specialization02.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test114_StringClass01.cpp">
+    <ClCompile Include="test122_ClassTem.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test115_StringClass02.cpp">
+    <ClCompile Include="test123_ClassTemFunDef.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test116_StringClass03.cpp">
+    <ClCompile Include="test124_2_PointTemplate.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test117_AddFuncTemplate.cpp">
+    <ClCompile Include="test124_3_PointMain.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test118_TwoTypeFunc.cpp">
+    <ClCompile Include="Test125_3_BoundArrayMain.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test119_PrimitiveFucTemplate.cpp">
+    <ClCompile Include="test126_mainTest.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="TrainingMain.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="test124_1_PointTemplate.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="test125_1_PointTemplate.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Test125_2_ArrayTemplate.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="Training.h">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="TrainingFunc.cpp">
+      <Filter>소스 파일</Filter>
+    </ClInclude>
   </ItemGroup>
 </Project>
