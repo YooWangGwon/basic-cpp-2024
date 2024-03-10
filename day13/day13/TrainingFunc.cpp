@@ -47,6 +47,7 @@ void Book::ShowProduct()
 {
 	Product::ShowProduct();
 	cout << "ISBN : " << ISBN << endl << "저자 : " << author << endl << "도서명 : " << title << endl;
+	cout << "---------------" << endl;
 }
 
 string Book::mytype()
@@ -69,6 +70,7 @@ void Handphone::ShowProduct()
 {
 	Product::ShowProduct();
 	cout << "모델명 : " << model << endl << "RAM 크기 : " << RAM << " G" << endl;
+	cout << "---------------" << endl;
 }
 
 string Handphone::mytype()
@@ -92,6 +94,7 @@ void Computer::ShowProduct()
 {
 	Product::ShowProduct();
 	cout << "모델명 : " << model << endl << "CPU : " << cpu << "RAM 크기 : " << RAM << " G" << endl;
+	cout << "---------------" << endl;
 }
 
 

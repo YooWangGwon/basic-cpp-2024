@@ -8,7 +8,7 @@ int main(void)
 {
 	Product* product[100] = {};
 	int click1 = 0;
-	int i = 0;
+	int i = 0;	// 생성된 객체 포인터의 개수
 	string id;
 	int price = 0;
 	string producer;
@@ -26,10 +26,10 @@ int main(void)
 		cin >> click1;
 		if (cin.fail())
 		{
-			cin.ignore(INT_MAX, '\n'); // 입력하여 문자로 인식한'\n'도 무시
-			cin.clear();
+			cin.ignore(INT_MAX, '\n');	// 입력하여 문자로 인식한'\n'도 무시
+			cin.clear();				// 입력 가능한 상태로 되돌리기
 		
-		rewind(stdin);
+		rewind(stdin);					// 입력 버퍼 비우기
 
 		cout << "1~4중에 입력하세요. > " << endl;
 		}	
@@ -173,8 +173,9 @@ int main(void)
 		else if (click1 == 3)	// 상품 검색
 		{
 			int click4 = 0;
-			string titlename;
+			string searchThing;
 			cout << "_____[상품 검색]_____" << endl;
+			cout << "검색하고 싶은 상품의 종류를 선택하세요." << endl;
 			cout << "1. 책 2. 핸드폰 3. 컴퓨터 4. 뒤로가기" << endl;
 		tryAgain3:
 			cin >> click4;
@@ -190,6 +191,7 @@ int main(void)
 			}
 			if (click4 == 1)	// 상품 검색 -> 책
 			{
+				int Searchresult = 0;
 				for (int n = 0; n < i; n++)
 				{
 					if (product[n]->mytype() == "Book")
@@ -198,17 +200,24 @@ int main(void)
 					}
 				}
 				cout << "검색하고 싶은 도서명을 입력하세요. > ";
-				cin >> titlename;
+				cin >> searchThing;
+				cout << "[검색 결과]" << endl;
 				for (int n = 0; n < i; n++)
 				{
-					if (product[n]->getInfo() == titlename)
+					if (product[n]->getInfo().find(searchThing) != string::npos)
 					{
 						product[n]->ShowProduct();
+						Searchresult += 1;
 					}
+				}
+				if (Searchresult == 0)
+				{
+					cout << "검색한 상품이 없습니다." << endl;
 				}
 			}
 			else if (click4 == 2)	// 상품 검색 -> 핸드폰
 			{
+				int Searchresult = 0;
 				for (int n = 0; n < i; n++)
 				{
 					if (product[n]->mytype() == "Handphone")
@@ -217,17 +226,24 @@ int main(void)
 					}
 				}
 				cout << "검색하고 싶은 휴대폰 모델명을 입력하세요. > ";
-				cin >> titlename;
+				cin >> searchThing;
+				cout << "[검색 결과]" << endl;
 				for (int n = 0; n < i; n++)
 				{
-					if (product[n]->getInfo() == titlename)
+					if (product[n]->getInfo().find(searchThing) != string::npos)
 					{
 						product[n]->ShowProduct();
+						Searchresult += 1;
 					}
+				}
+				if (Searchresult == 0)
+				{
+					cout << "검색한 상품이 없습니다." << endl;
 				}
 			}
 			else if (click4 == 3)	// 상품 검색 -> 컴퓨터
 			{
+				int Searchresult = 0;
 				for (int n = 0; n < i; n++)
 				{
 					if (product[n]->mytype() == "Computer")
@@ -236,13 +252,19 @@ int main(void)
 					}
 				}
 				cout << "검색하고 싶은 컴퓨터 모델명을 입력하세요. > ";
-				cin >> titlename;
+				cin >> searchThing;
+				cout << "[검색 결과]" << endl;
 				for (int n = 0; n < i; n++)
 				{
-					if (product[n]->getInfo() == titlename)
+					if (product[n]->getInfo().find(searchThing) != string::npos)
 					{
 						product[n]->ShowProduct();
+						Searchresult += 1;
 					}
+				}
+				if (Searchresult == 0)
+				{
+					cout << "검색한 상품이 없습니다." << endl;
 				}
 			}
 			else if (click4 == 4)	// 상품 검색 -> 뒤로가기
