@@ -1,4 +1,4 @@
-#include "Training.h"
+#include "test127_1_Training.h"
 #include <iostream>
 #include <string>
 
@@ -45,6 +45,7 @@ Book::Book(string Bid, int Bprice, string Bproducer, string BISBN, string Bautho
 
 void Book::ShowProduct()
 {
+	cout << "[Book]" << endl;
 	Product::ShowProduct();
 	cout << "ISBN : " << ISBN << endl << "저자 : " << author << endl << "도서명 : " << title << endl;
 	cout << "---------------" << endl;
@@ -68,6 +69,7 @@ Handphone::Handphone(string Hid, int Hprice, string Hproducer, string Hmodel, in
 
 void Handphone::ShowProduct()
 {
+	cout << "[Handphone]" << endl;
 	Product::ShowProduct();
 	cout << "모델명 : " << model << endl << "RAM 크기 : " << RAM << " G" << endl;
 	cout << "---------------" << endl;
@@ -92,8 +94,9 @@ Computer::Computer(string Cid, int Cprice, string Cproducer, string Cmodel, stri
 
 void Computer::ShowProduct()
 {
+	cout << "[Computer]" << endl;
 	Product::ShowProduct();
-	cout << "모델명 : " << model << endl << "CPU : " << cpu << "RAM 크기 : " << RAM << " G" << endl;
+	cout << "모델명 : " << model << endl << "CPU : " << cpu << endl << "RAM 크기 : " << RAM << " G" << endl;
 	cout << "---------------" << endl;
 }
 

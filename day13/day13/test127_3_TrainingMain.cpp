@@ -1,5 +1,5 @@
-#include "Training.h"
-#include "TrainingFunc.cpp"
+#include "test127_1_Training.h"
+#include "test127_2_TrainingFunc.cpp"
 #include <string>
 #include <typeinfo>
 using namespace std;
@@ -27,11 +27,12 @@ int main(void)
 		if (cin.fail())
 		{
 			cin.ignore(INT_MAX, '\n');	// 입력하여 문자로 인식한'\n'도 무시
+										// cin.ignore(A,B) => A: 버리고자하는 문자 수, B: 제한 문자
 			cin.clear();				// 입력 가능한 상태로 되돌리기
 		
 		rewind(stdin);					// 입력 버퍼 비우기
 
-		cout << "1~4중에 입력하세요. > " << endl;
+		cout << "<1~4중에 입력하세요.> " << endl;
 		}	
 		else if (click1 == 1)
 		{
@@ -97,7 +98,7 @@ int main(void)
 				cout << "CPU > ";
 				cin >> cpu;
 				cout << "RAM 크기 > ";
-				cin >> title;
+				cin >> RAM;
 				product[i] = new Computer(id, price, producer, model, cpu, RAM);
 				i++;
 				continue;
@@ -204,8 +205,8 @@ int main(void)
 				cout << "[검색 결과]" << endl;
 				for (int n = 0; n < i; n++)
 				{
-					if (product[n]->getInfo().find(searchThing) != string::npos)
-					{
+					if (product[n]->getInfo().find(searchThing) != string::npos and product[n]->mytype() == "Book")	
+					{											// find의 값이 npos가 아니고 mytype값이 Book이면
 						product[n]->ShowProduct();
 						Searchresult += 1;
 					}
@@ -230,10 +231,10 @@ int main(void)
 				cout << "[검색 결과]" << endl;
 				for (int n = 0; n < i; n++)
 				{
-					if (product[n]->getInfo().find(searchThing) != string::npos)
+					if (product[n]->getInfo().find(searchThing) != string::npos and product[n]->mytype() == "Handphone")
 					{
-						product[n]->ShowProduct();
-						Searchresult += 1;
+							product[n]->ShowProduct();
+							Searchresult += 1;
 					}
 				}
 				if (Searchresult == 0)
@@ -256,10 +257,10 @@ int main(void)
 				cout << "[검색 결과]" << endl;
 				for (int n = 0; n < i; n++)
 				{
-					if (product[n]->getInfo().find(searchThing) != string::npos)
+					if (product[n]->getInfo().find(searchThing) != string::npos and product[n]->mytype() == "Computer")
 					{
-						product[n]->ShowProduct();
-						Searchresult += 1;
+					product[n]->ShowProduct();
+					Searchresult += 1;
 					}
 				}
 				if (Searchresult == 0)
@@ -288,6 +289,5 @@ int main(void)
 		}
 	}
 
-	delete []product;	// 메모리 반환
 	return 0;
 }
