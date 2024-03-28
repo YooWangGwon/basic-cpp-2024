@@ -151,7 +151,7 @@
     <ClCompile Include="test126_mainTest.cpp">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClCompile>
-    <ClCompile Include="test127_3_TrainingMain.cpp">
+    <ClCompile Include="test127_3_ProductMain.cpp">
       <PreprocessorDefinitions Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">_CRT_SECURE_NO_WARNINGS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
     </ClCompile>
   </ItemGroup>
@@ -165,8 +165,8 @@
     <ClInclude Include="test124_1_PointTemplate.h">
       <ExcludedFromBuild Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">true</ExcludedFromBuild>
     </ClInclude>
-    <ClInclude Include="test127_2_TrainingFunc.cpp" />
-    <ClInclude Include="test127_1_Training.h" />
+    <ClInclude Include="test127_2_ProductFunc.cpp" />
+    <ClInclude Include="test127_1_Product.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

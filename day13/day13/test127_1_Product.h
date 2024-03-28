@@ -1,5 +1,5 @@
-#ifndef __TRAINING_
-#define __TRAINING_
+#ifndef __PRODUCT_
+#define __PRODUCT_
 #include <string>
 using namespace std;
 

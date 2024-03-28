@@ -1,5 +1,5 @@
-#include "test127_1_Training.h"
-#include "test127_2_TrainingFunc.cpp"
+#include "test127_1_Product.h"
+#include "test127_2_ProductFunc.cpp"
 #include <string>
 #include <typeinfo>
 using namespace std;

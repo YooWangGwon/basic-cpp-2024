@@ -39,7 +39,7 @@
     <ClCompile Include="test126_mainTest.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
-    <ClCompile Include="test127_3_TrainingMain.cpp">
+    <ClCompile Include="test127_3_ProductMain.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
   </ItemGroup>
@@ -53,10 +53,10 @@
     <ClInclude Include="Test125_2_ArrayTemplate.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
-    <ClInclude Include="test127_1_Training.h">
+    <ClInclude Include="test127_1_Product.h">
       <Filter>소스 파일</Filter>
     </ClInclude>
-    <ClInclude Include="test127_2_TrainingFunc.cpp">
+    <ClInclude Include="test127_2_ProductFunc.cpp">
       <Filter>소스 파일</Filter>
     </ClInclude>
   </ItemGroup>
